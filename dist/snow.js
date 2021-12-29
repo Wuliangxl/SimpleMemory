@@ -10,7 +10,9 @@
 		minSize		: 10,
 		maxSize		: 20,
 		newOn		: 1000,
-		flakeColor	: "#AFDAEF" /* 此处可以定义雪花颜色，若要白色可以改为#FFFFFF */
+		flakeColor	: "#83CCEF"
+		//flakeColor	: "#AFDAEF" /* 此处可以定义雪花颜色，若要白色可以改为#FFFFFF */
+		
 	},
 	    
 	// 将一个新的空对象（{}）做为$.extend的第一个参数，defaults和用户传递的参数对象紧随其后，这样做的好处是所有值被合并到这个空对象上，保护了插件里面的默认值。
