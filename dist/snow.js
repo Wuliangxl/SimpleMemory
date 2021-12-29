@@ -10,7 +10,7 @@
 		minSize		: 10,
 		maxSize		: 20,
 		newOn		: 1000,
-		flakeColor	: "#57AD19"
+		flakeColor	: "#83CCEF"
 		//flakeColor	: "#AFDAEF" /* 此处可以定义雪花颜色，若要白色可以改为#FFFFFF */
 		
 	},
@@ -31,7 +31,7 @@
 	$flake.clone().appendTo('body').css({
 		left: startPositionLeft,
 		//opacity: startOpacity,
-		opacity: 100,
+		opacity: 80,
 		'font-size': sizeFlake,
 		color: options.flakeColor
 	}).animate({
