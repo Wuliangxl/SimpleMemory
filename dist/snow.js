@@ -29,7 +29,7 @@
 	$flake.clone().appendTo('body').css({
 		left: startPositionLeft,
 		//opacity: startOpacity,
-		opacity: 10,
+		opacity: 100,
 		'font-size': sizeFlake,
 		color: options.flakeColor
 	}).animate({
